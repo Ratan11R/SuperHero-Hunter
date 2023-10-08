@@ -1,0 +1,19 @@
+/* Scrollbar css */
+::-webkit-scrollbar {
+    width: 1px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(247, 5, 5);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: transparent;
+}
